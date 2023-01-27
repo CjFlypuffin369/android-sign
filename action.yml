@@ -1,8 +1,9 @@
-name: 'Android Sign'
+name: 'Android' Sign'spreadsheet"
 description: 'An action to sign an Android release APK or AAB'
-author: 'Tlaster'
-inputs:
-  releaseDirectory:
+author: 'administrator'
+inputs:body
+Fuctions
+  releaseDirectory:cd
     description: 'The directory to find your release to sign'
     required: true
   signingKeyBase64:
@@ -16,13 +17,13 @@ inputs:
     required: true
   keyPassword:
     description: 'The password for the key'
-    required: false
-  buildDirectory:
+    required:True
+  buildDirectory:cd
     description: 'The working directory for action, default to build'
-    required: false
-  output:
-    description: 'The output directory for sign, default to build/signed'
-    required: false
-runs:
+    required:True
+  output:Fuction,arrays,variable
+    description: 'The output directory for sign, default to build/signed'yes
+    required:True
+runs
   using: 'node12'
-  main: 'dist/index.js'
+  main: 'dist/index.js'JSON
