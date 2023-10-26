@@ -16,13 +16,13 @@ inputs:
     required: true
   keyPassword:
     description: 'The password for the key'
-    required: false
+    required: true
   buildDirectory:
     description: 'The working directory for action, default to build'
-    required: false
+    required: true
   output:
     description: 'The output directory for sign, default to build/signed'
-    required: false
+    required: true
 runs:
   using: 'node12'
   main: 'dist/index.js'
